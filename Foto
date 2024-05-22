@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бикус Родион - Фотограф, Видеограф, Маркетолог</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #444;
+        }
+        .services, .contact {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .service {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .service:last-child {
+            border-bottom: none;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Бикус Родион</h1>
+        <p>Фотограф, Видеограф, Маркетолог</p>
+    </header>
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Меня зовут Бикус Родион. Я профессионально занимаюсь фотосъемкой уже более 10 лет и провел более 3000 фотосессий. Последние 3 года я живу и работаю в Дубае, где активно изучаю маркетинг и дизайн. Я основал собственное агентство полного цикла Pure, в котором работает команда профессиональных нишевых специалистов.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Услуги</h2>
+            <div class="service">
+                <h3>Лента на 15 постов</h3>
+                <p>Стратегическая консультация, 4 часа съемки на 4 локациях, 30 обработанных фото, подготовка мудборта, создание раскладки на 15 постов, фото в течение 5 дней.</p>
+                <p><strong>Стоимость:</strong> 4500 дирхам</p>
+                <p><strong>Дополнительная услуга:</strong> дизайнерское оформление Instagram, подготовка шаблонов - 1000 дирхам</p>
+            </div>
+            <div class="service">
+                <h3>Лента на 30 постов</h3>
+                <p>Стратегическая консультация, 10 часов съемки на 6-8 локациях, 60 обработанных фото, 4 видео Reels, подготовка мудборта, создание раскладки на 30 постов, фото в течение 5 дней.</p>
+                <p><strong>Стоимость:</strong> 8000 дирхам</p>
+                <p><strong>Дополнительная услуга:</strong> дизайнерское оформление Instagram, подготовка шаблонов - 1000 дирхам</p>
+            </div>
+            <div class="service">
+                <h3>Лента на 30 постов (2 дня съемки)</h3>
+                <p>Стратегическая консультация, 20 часов съемки на 14-16 локациях, 200 обработанных фото, 10 видео Reels, подготовка мудборта, создание раскладки на 30 постов, фото в течение 5 дней.</p>
+                <p><strong>Стоимость:</strong> 12000 дирхам</p>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2>Портфолио</h2>
+            <p>Здесь будут примеры моих работ.</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Контакты</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Бикус Родион. Все права защищены.</p>
+    </footer>
+</body>
+</html>
